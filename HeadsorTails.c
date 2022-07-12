@@ -19,6 +19,12 @@ int main(int argc,char* argv[]){
     }
   }
   printf("Heads: %d, Tails: %d\n",x,y);
+  if(x > y){
+    printf("You won\n");
+  }
+  else{
+    printf("You lost\n");
+  }
 
   return 0;
 }
