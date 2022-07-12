@@ -5,6 +5,12 @@
 int main(int argc,char* argv[]){
   char *str[] = {"Heads","Tails"};
   int i,x = 0,y = 0;
+  char name[30];
+  
+  printf("Who are you?\n");
+  printf(">");
+  scanf("%s",name);
+  printf("Hello, %s!\n",name);
 
   srand(time(NULL));
   printf("Tossing a coin...\n");
