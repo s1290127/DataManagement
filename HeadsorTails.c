@@ -26,10 +26,10 @@ int main(int argc,char* argv[]){
   }
   printf("Heads: %d, Tails: %d\n",x,y);
   if(x > y){
-    printf("You won\n");
+    printf("%s won\n",name);
   }
   else{
-    printf("You lost\n");
+    printf("%s lost\n",name);
   }
 
   return 0;
